@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexient.MovieReviews", "BlockChain.Reviews\Nexient.MovieReviews.csproj", "{92197FF7-C85A-4182-A092-1B12AE070A01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{732F2BF4-95AA-46A5-A7B4-4A767D6AED1C} = {732F2BF4-95AA-46A5-A7B4-4A767D6AED1C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexient.MovieDB", "Nexient.MovieDB.Proxies\Nexient.MovieDB.csproj", "{916A929C-F3B0-49CF-B90F-ADC44C3A4934}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26ECB515-E1D0-4BFC-ACC9-79B09A04D955} = {26ECB515-E1D0-4BFC-ACC9-79B09A04D955}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexient.Business.Interface", "Nexient.Business.Interface\Nexient.Business.Interface.csproj", "{26ECB515-E1D0-4BFC-ACC9-79B09A04D955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexient.Business", "Nexient.Business\Nexient.Business.csproj", "{732F2BF4-95AA-46A5-A7B4-4A767D6AED1C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26ECB515-E1D0-4BFC-ACC9-79B09A04D955} = {26ECB515-E1D0-4BFC-ACC9-79B09A04D955}
+		{916A929C-F3B0-49CF-B90F-ADC44C3A4934} = {916A929C-F3B0-49CF-B90F-ADC44C3A4934}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92197FF7-C85A-4182-A092-1B12AE070A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92197FF7-C85A-4182-A092-1B12AE070A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92197FF7-C85A-4182-A092-1B12AE070A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92197FF7-C85A-4182-A092-1B12AE070A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916A929C-F3B0-49CF-B90F-ADC44C3A4934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916A929C-F3B0-49CF-B90F-ADC44C3A4934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916A929C-F3B0-49CF-B90F-ADC44C3A4934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916A929C-F3B0-49CF-B90F-ADC44C3A4934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26ECB515-E1D0-4BFC-ACC9-79B09A04D955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26ECB515-E1D0-4BFC-ACC9-79B09A04D955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26ECB515-E1D0-4BFC-ACC9-79B09A04D955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26ECB515-E1D0-4BFC-ACC9-79B09A04D955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732F2BF4-95AA-46A5-A7B4-4A767D6AED1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732F2BF4-95AA-46A5-A7B4-4A767D6AED1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732F2BF4-95AA-46A5-A7B4-4A767D6AED1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732F2BF4-95AA-46A5-A7B4-4A767D6AED1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6F401A8-8FA7-4F8B-BAAE-6DD5425B2D6E}
+	EndGlobalSection
+EndGlobal
